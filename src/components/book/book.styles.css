@@ -1,0 +1,24 @@
+.book {
+    display: -ms-grid;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    padding: 2px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+.h1 {
+    font-size: 13px;
+    line-height: 19px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.p {
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+}

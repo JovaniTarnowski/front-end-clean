@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import SearchAppBar from './components/app-bar/app-bar.component';
 import TitlebarGridList from './components/book/book.component';
+import MyForm from './components/form/form.component'
 
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
     return (
       <div className='App'>
         <SearchAppBar placeholder='search book...' handleChange={this.handleChange}/>
+        <MyForm />
         <TitlebarGridList data={filteredData}/>
       </div>
     )
